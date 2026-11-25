@@ -1,0 +1,37 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Python virtual environments
+env/
+venv/
+.venv/
+Lib/
+Scripts/
+Include/
+pyvenv.cfg
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Django generated files
+db.sqlite3
+staticfiles/
+media/
+
+# React / Node.js
+node_modules/
+dist/
+
+# Editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+#Dataset files (Third party source)
+dataset/
